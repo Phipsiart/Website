@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-big {
+  background: url(/v2osk-1Z2niiBPg5A-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  z-index: -1; /* Ensure the background is behind other content */
+  animation: entry-bg 0.8s ease-in forwards;
+}
+
+@keyframes entry-bg {
+  to {
+    opacity: 1;
+  }
+}
+.app{
+  opacity: 0;
+  animation: entry-bg 2s ease-in forwards
+}
+.leberkas-navbar{
+  background-color: white;
+}
+@media only screen and (max-width: 991px) {
+  .leberkas-navbar{
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+    top: 3.6rem;
+    left: 0rem;
+    right:0rem;
+  }
+  .line{
+    border-top-width: 1px;  
+    border-color: rgb(209 213 219);
+  }
+
+}
+@media only screen and (max-width: 791px) {
+  p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .carousel{
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar-toggle-btn{
+    display: none;
+  }
+}

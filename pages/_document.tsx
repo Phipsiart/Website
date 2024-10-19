@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="stylesheet" href="https://cdn.phipsiart.at/leberkasrechner-assets/css/tabler.min.css" />
+        <link rel="stylesheet" href="https://cdn.phipsiart.de/leberkasrechner-assets/css/tabler.min.css" />
         <script 
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
